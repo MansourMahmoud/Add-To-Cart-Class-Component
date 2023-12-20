@@ -1,0 +1,18 @@
+.dark-mode {
+  background: #222;
+}
+
+@media (max-width: 767px) {
+  .w-product-style {
+    width: 100%;
+  }
+}
+
+@media (min-width: 767px) {
+  .w-product-style {
+    width: auto;
+  }
+  .half-w {
+    width: 50%;
+  }
+}
