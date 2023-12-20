@@ -69,17 +69,7 @@ class Navbary extends Component {
                   padding: "5px 5px 0px 7px",
                 }}
               >
-                <FormattedNumbers
-                  number={
-                    this.props.products.length > 0
-                      ? this.props.products
-                          .map((data) => {
-                            return data.count;
-                          })
-                          .reduce((e, x) => e + x)
-                      : 0
-                  }
-                />
+                <FormattedNumbers number={this.props.products.length} />
               </span>
             </Nav>
           </Container>
